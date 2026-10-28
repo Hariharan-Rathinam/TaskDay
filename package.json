@@ -1,0 +1,26 @@
+{
+  "name": "taskday",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Offline-first task manager (lists, calendar, habits, focus timer, countdowns) with Syncthing folder sync",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs --serve",
+    "start": "node scripts/serve.mjs",
+    "test": "node scripts/test-core.mjs && node scripts/test-sync.mjs",
+    "android": "node scripts/build-android.mjs"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/app": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/local-notifications": "^7.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0",
+    "esbuild": "^0.28.0"
+  }
+}

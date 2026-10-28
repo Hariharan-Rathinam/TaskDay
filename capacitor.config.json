@@ -1,0 +1,15 @@
+{
+  "appId": "com.taskday.app",
+  "appName": "Taskday",
+  "webDir": "dist",
+  "android": {
+    "adjustMarginsForEdgeToEdge": "force",
+    "backgroundColor": "#ffffff"
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_taskday",
+      "iconColor": "#4772FA"
+    }
+  }
+}
